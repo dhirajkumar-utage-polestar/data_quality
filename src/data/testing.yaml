@@ -1,0 +1,106 @@
+expectations:
+
+  - name: ExpectColumnValuesToBeOfType
+    column: ReceivedTimestamp
+    type: int64
+    action: skip
+  - name: ExpectColumnValuesToBeOfType
+    column: MessageType
+    type: int64
+    action: skip
+
+
+
+
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: ProcessedTimestamp
+  #    type: int64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Source
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: TransceiverClass
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: MessageType
+  #    type: int64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: SentenceCount
+  #    type: int64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: MMSI
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: RawSentences
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Error
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: NavigationalStatus
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Latitude
+  #    type: float64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Longitude
+  #    type: float64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Course
+  #    type: float64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Heading
+  #    type: float64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Speed
+  #    type: float64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: CallSign
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Destination
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Draught
+  #    type: float64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: ETA
+  #    type: int64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: IMONumber
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: Name
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: ShipType
+  #    type: object
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: ToPort
+  #    type: int64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: ToStarboard
+  #    type: int64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: ToBow
+  #    type: int64
+  #  - name: ExpectColumnValuesToBeOfType
+  #    column: ToStern
+  #    type: int64
+
+
+  # Additional checks
+  #- name: ExpectColumnValuesToNotBeNull
+  # column: ReceivedTimestamp
+  #- name: ExpectColumnValuesToNotBeNull
+  #  column: ProcessedTimestamp
+  #- name: ExpectColumnValuesToNotBeNull
+  #  column: MMSI
+  #- name: ExpectColumnValuesToNotBeNull
+  #  column: Latitude
+  #- name: ExpectColumnValuesToNotBeNull
+  #  column: Longitude
+  #- name: ExpectColumnValuesToNotBeNull
+  # column: Speed
+
+  #action - skip , failure , correct

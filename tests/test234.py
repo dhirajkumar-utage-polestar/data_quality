@@ -1,0 +1,2 @@
+expectations_action_dict = {('ExpectColumnValuesToBeOfType', 'ReceivedTimestamp'): 'skip', ('ExpectColumnValuesToBeOfType', 'MessageType'): 'failure'}
+expectations_action_dict.get((normalized_expectation_name, expectation_column), None)
